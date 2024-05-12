@@ -6,7 +6,7 @@ const Home = () => {
         <header className="App-header">
         
         <p>
-          ChatAppss
+          Anjas is mad
         </p>
         
       </header>
