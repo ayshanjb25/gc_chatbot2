@@ -1,3 +1,8 @@
+body{
+  background-image: linear-gradient(150deg, #A94064, #FFD8F0, #A94064);
+}
+
+
 .App {
   text-align: center;
 }
@@ -13,17 +18,18 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer {
+  background-color: transparent;
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-top: 1px solid #FFD8F0;
+  margin-top: 50px;
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +41,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.intro-title{
+   
+  color:#A94064
+}
+
+.introCard{
+  border:1px solid #A94064;
+  box-shadow: 20px 20px 40px #A94064;
+  border-radius:10px;
+  height:500px;
+  padding-left: 40px;
+  padding-right: 40px;
+
 }
